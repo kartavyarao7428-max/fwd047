@@ -13,8 +13,8 @@ margin: 0px;
 }
 
 .pad {
-
-padding: 25px;
+ 
+padding: 30px;
 }
 
 .header {
@@ -34,9 +34,9 @@ text-align: center;
 
 background-color: pink;
 
-color: white;
+color: rgb(124, 5, 243);
 
-font-size: 16pt;
+font-size: 35px;
 
 text-align: center;
 
@@ -60,16 +60,49 @@ margin: 5px;
 
 background-color: aqua;
 
-height: 60% ;
+height: 200% ;
 
-width: 60%;
+width: 100%;
 
-float: left;
+text-align: center;
 
-border: 4px solid rgb(230, 173, 173);
+
+border: 6px solid rgb(230, 173, 173);
 
 }
 
+.vids {
+
+margin:  5px;
+
+background-color: rgb(208, 249, 4);
+
+height: 200% ;
+
+width: 100%;
+
+text-align: center;
+
+border: 12px solid rgb(117, 4, 247);
+
+}
+
+.beat {
+
+margin: px;
+
+background-color: rgb(249, 94, 4);
+
+height: 200% ;
+
+width: 100%;
+
+text-align: center;
+
+border: 12px solid rgb(230, 5, 125);
+
+}
+ 
 </style>
 
 </head>
@@ -80,7 +113,7 @@ border: 4px solid rgb(230, 173, 173);
      ACCOMODATION 
     </div>
  
-    <div class="welcome">
+    <div class="welcome pad">
         
         <a href="#home">HOME / </a>
 
@@ -93,8 +126,8 @@ border: 4px solid rgb(230, 173, 173);
         <a href="#login">LOGIN</a>
 
     </div>
-
-    <div class="divs" >
+   <form>
+    <div class="divs pad" >
         <h2>find a flat or pg near your university</h2>
         <p>Stop travelling 5 hours a day . compare prices and distance in one place </p>
         <p>
@@ -107,10 +140,50 @@ border: 4px solid rgb(230, 173, 173);
           <option>pg</option>
         </select>
         <button type="submit">search</button>
-</p>
-
+       </p>
+       </div>
 </form>
-         
-    </div>
+       
+<form>
+
+  <div class="vids">
+  <h2>login</h2>
+  <p>please enter your email and password</p>
+  <p>
+         EMAIL:
+         <input type= "text" name="spy3" size="15" maxlength="5" />
+  </br>
+</br>
+        PASSWORD:
+         <input type= "password" name="spy4" size="15" maxlength="7" />
+</br>
+</br>
+        <button type="submit">login</button>
+       </p>
+  </div>
+</form>
+
+<form>
+
+  <div class="beat">
+  <h2>CONTACT US </h2>
+  <p>please enter your email and password</p>
+  <p>
+         NAME:
+         <input type= "text" name="spy5" size="15" maxlength="5" />
+  </br>
+</br>
+        EMAIL:
+         <input type= "email" name="spy6" size="15" maxlength="7" />
+</br>
+</br>
+        your message:
+        <input type="message" name="spy7" size="30" maxlength="10"/>
+</br>
+</br>
+        <button type="submit">send message</button>
+       </p>
+  </div>
+</form>
 </body>
 </html>
